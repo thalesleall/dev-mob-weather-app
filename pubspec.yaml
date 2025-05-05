@@ -10,11 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^2.27.0  # <-- Atualize para a última versão estável
+  firebase_auth: ^4.17.8  # <-- Atualize para a última versão estável
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^4.0.0 # Considere atualizar também para ^3.0.1 ou mais recente
+  build_runner: ^2.4.11
 
 flutter:
   uses-material-design: true
